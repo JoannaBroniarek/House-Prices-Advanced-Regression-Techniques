@@ -15,17 +15,17 @@ Joanna Broniarek
 2. Removing outliers : GrLivArea more than 4500.
 3. Improving values like Year more than 2017.
 4. Handling missing numerical values:
-a. LotFrontage according to median in specific Neighborhood
-b. With constant = 0 for :
+  + LotFrontage according to median in specific Neighborhood
+  + With constant = 0 for :
 ['BsmtFinSF1', 'BsmtFinSF2', 'BsmtFullBath', 'BsmtHalfBath', "MasVnrArea"]
-c. The rest of numerical columns (apart from point 5) with median.
+  + The rest of numerical columns (apart from point 5) with median.
 5. Transformation of some numerical features that are actually categorical:
 ['MSSubClass', 'OverallCond’]
 6. Handling missing categorical values. (specific for each feature)
 7. Transformation of skewed features:
-a. SalePrice – log transformation
-b. Other features with skeweness > 0.5 using BoxCox transformation
-8. Transformation some categorical features (with specific order) into numerical
+  + SalePrice – log transformation
+  + Other features with skeweness > 0.5 using BoxCox transformation
+  + Transformation some categorical features (with specific order) into numerical
 
 **Feature Engineering:**
 
@@ -55,14 +55,14 @@ Scaling - RobustScaler
 1. StackingCVRegressor on models: [Lasso, ElasticNet, XGB, LGBM]
 2. Weighted predictions 0.2*ElasticNet + 0.25*lasso + 0.15*LGBM + 0.4*StackedModels
 
-
 ## Environment specification:
-python 3.6.4
-numpy 1.14.2
-scipy 1.1.0rc1
-seaborn 0.9.0
-sklearn 0.20.1
-pandas 0.22.0
-sklearn 0.20.1
-xgboost 0.72
-lightgbm 2.2.2
+
+* python 3.6.4
+* numpy 1.14.2
+* scipy 1.1.0rc1
+* seaborn 0.9.0
+* sklearn 0.20.1
+* pandas 0.22.0
+* sklearn 0.20.1
+* xgboost 0.72
+* lightgbm 2.2.2
