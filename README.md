@@ -56,5 +56,13 @@ Scaling - RobustScaler
 2. Weighted predictions 0.2*ElasticNet + 0.25*lasso + 0.15*LGBM + 0.4*StackedModels
 
 
-## Requirements
-
+## Environment specification:
+python 3.6.4
+numpy 1.14.2
+scipy 1.1.0rc1
+seaborn 0.9.0
+sklearn 0.20.1
+pandas 0.22.0
+sklearn 0.20.1
+xgboost 0.72
+lightgbm 2.2.2
