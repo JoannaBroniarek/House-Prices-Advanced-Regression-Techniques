@@ -1,5 +1,13 @@
 # House-Prices-Advanced-Regression-Techniques
-This project consists in competing in the following Kaggle competition:  https://www.kaggle.com/c/house-prices-advanced-regression-techniques
+Joanna Broniarek
 
----------------------------------
-# Project in progress!!
+**The goal of this repository was to provide an analysis for Kaggle's competition:  https://www.kaggle.com/c/house-prices-advanced-regression-techniques**
+
+![kaggle-image](https://storage.googleapis.com/kaggle-competitions/kaggle/5407/media/housesbanner.png)
+
+## Workflow
+
+TODO !
+
+## Requirements
+TODO !
